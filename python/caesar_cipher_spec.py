@@ -1,7 +1,8 @@
 from caesar_cipher import caesar_cipher
 import unittest
 
-class TestCaesarCipher(unittest.Testcase):
+
+class CaesarCipher(unittest.TestCase):
     ''' tests for caesar_cipher.py'''
     
     ''' when you call caesar_cipher, you get a string back.'''
